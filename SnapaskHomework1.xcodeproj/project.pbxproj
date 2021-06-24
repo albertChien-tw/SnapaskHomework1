@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,14 @@
 		509D3CEB2684B01C00F9D8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509D3CE92684B01C00F9D8ED /* LaunchScreen.storyboard */; };
 		509D3CF62684B01C00F9D8ED /* SnapaskHomework1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3CF52684B01C00F9D8ED /* SnapaskHomework1Tests.swift */; };
 		509D3D012684B01C00F9D8ED /* SnapaskHomework1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D002684B01C00F9D8ED /* SnapaskHomework1UITests.swift */; };
+		509D3D322684B27C00F9D8ED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D292684B27C00F9D8ED /* UserInfo.swift */; };
+		509D3D332684B27C00F9D8ED /* UserInfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D2A2684B27C00F9D8ED /* UserInfoDetail.swift */; };
+		509D3D342684B27C00F9D8ED /* StubbingConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D2B2684B27C00F9D8ED /* StubbingConstructor.swift */; };
+		509D3D352684B27C00F9D8ED /* SnapaskTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D2C2684B27C00F9D8ED /* SnapaskTargetType.swift */; };
+		509D3D362684B27C00F9D8ED /* SnapaskProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D2D2684B27C00F9D8ED /* SnapaskProvider.swift */; };
+		509D3D372684B27C00F9D8ED /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D2F2684B27C00F9D8ED /* EndPoints.swift */; };
+		509D3D382684B27C00F9D8ED /* GitHubUserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D302684B27C00F9D8ED /* GitHubUserApi.swift */; };
+		509D3D392684B27C00F9D8ED /* GitHubUserListApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D312684B27C00F9D8ED /* GitHubUserListApi.swift */; };
 		5E8515AC2433B7A03423EA78 /* Pods_SnapaskHomework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC1D458DC7081F361962E6 /* Pods_SnapaskHomework1.framework */; };
 		A90639AF109FE667C5F820B6 /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9277B2FD2CBC61A397F55B /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +65,14 @@
 		509D3CFC2684B01C00F9D8ED /* SnapaskHomework1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapaskHomework1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		509D3D002684B01C00F9D8ED /* SnapaskHomework1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapaskHomework1UITests.swift; sourceTree = "<group>"; };
 		509D3D022684B01C00F9D8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509D3D292684B27C00F9D8ED /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		509D3D2A2684B27C00F9D8ED /* UserInfoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoDetail.swift; sourceTree = "<group>"; };
+		509D3D2B2684B27C00F9D8ED /* StubbingConstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubbingConstructor.swift; sourceTree = "<group>"; };
+		509D3D2C2684B27C00F9D8ED /* SnapaskTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapaskTargetType.swift; sourceTree = "<group>"; };
+		509D3D2D2684B27C00F9D8ED /* SnapaskProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapaskProvider.swift; sourceTree = "<group>"; };
+		509D3D2F2684B27C00F9D8ED /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		509D3D302684B27C00F9D8ED /* GitHubUserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUserApi.swift; sourceTree = "<group>"; };
+		509D3D312684B27C00F9D8ED /* GitHubUserListApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUserListApi.swift; sourceTree = "<group>"; };
 		B9DA85B76811F2C23697E4B5 /* Pods-SnapaskHomework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1.release.xcconfig"; sourceTree = "<group>"; };
 		EC9277B2FD2CBC61A397F55B /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapaskHomework1_SnapaskHomework1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D0E045417C1E483F07666A /* Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +142,7 @@
 		509D3CDD2684B01C00F9D8ED /* SnapaskHomework1 */ = {
 			isa = PBXGroup;
 			children = (
+				509D3D272684B27C00F9D8ED /* Network */,
 				509D3CDE2684B01C00F9D8ED /* AppDelegate.swift */,
 				509D3CE02684B01C00F9D8ED /* SceneDelegate.swift */,
 				509D3CE22684B01C00F9D8ED /* ViewController.swift */,
@@ -155,6 +172,37 @@
 			path = SnapaskHomework1UITests;
 			sourceTree = "<group>";
 		};
+		509D3D272684B27C00F9D8ED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				509D3D282684B27C00F9D8ED /* DTO */,
+				509D3D2B2684B27C00F9D8ED /* StubbingConstructor.swift */,
+				509D3D2C2684B27C00F9D8ED /* SnapaskTargetType.swift */,
+				509D3D2D2684B27C00F9D8ED /* SnapaskProvider.swift */,
+				509D3D2E2684B27C00F9D8ED /* API */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		509D3D282684B27C00F9D8ED /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				509D3D292684B27C00F9D8ED /* UserInfo.swift */,
+				509D3D2A2684B27C00F9D8ED /* UserInfoDetail.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		509D3D2E2684B27C00F9D8ED /* API */ = {
+			isa = PBXGroup;
+			children = (
+				509D3D2F2684B27C00F9D8ED /* EndPoints.swift */,
+				509D3D302684B27C00F9D8ED /* GitHubUserApi.swift */,
+				509D3D312684B27C00F9D8ED /* GitHubUserListApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		871E95FFF4F4A1F10900CCB6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +213,6 @@
 				3EDA90B37B757A9B48A5181D /* Pods-SnapaskHomework1Tests.debug.xcconfig */,
 				007F36DB9B9CA1FD559B09B8 /* Pods-SnapaskHomework1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,7 +455,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				509D3CE32684B01C00F9D8ED /* ViewController.swift in Sources */,
+				509D3D392684B27C00F9D8ED /* GitHubUserListApi.swift in Sources */,
+				509D3D342684B27C00F9D8ED /* StubbingConstructor.swift in Sources */,
 				509D3CDF2684B01C00F9D8ED /* AppDelegate.swift in Sources */,
+				509D3D382684B27C00F9D8ED /* GitHubUserApi.swift in Sources */,
+				509D3D322684B27C00F9D8ED /* UserInfo.swift in Sources */,
+				509D3D372684B27C00F9D8ED /* EndPoints.swift in Sources */,
+				509D3D362684B27C00F9D8ED /* SnapaskProvider.swift in Sources */,
+				509D3D352684B27C00F9D8ED /* SnapaskTargetType.swift in Sources */,
+				509D3D332684B27C00F9D8ED /* UserInfoDetail.swift in Sources */,
 				509D3CE12684B01C00F9D8ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
