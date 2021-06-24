@@ -40,10 +40,14 @@ struct GitHubUserListApi {
     }
 
     class Client {
-        private let provider = SnapaskProvider<Request>()
-
+        var service:SnapaskNetworkService
+        
+        init(service:SnapaskNetworkService = SnapaskNetworkService.shared) {
+            self.service = service
+        }
+        
         func getUserList(since: Int, perPage: Int) -> Single<[UserInfo]> {
-            return provider.request(Request.ResponseType.self, request: Request(since: since, perPage: perPage))
+            service.request(Request(since: since, perPage: perPage))
         }
     }
 }

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082FC33AE56A969B2CD36D6F /* Pods_SnapaskHomework1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D56011CBC2F5F5976D939CD /* Pods_SnapaskHomework1Tests.framework */; };
+		30259F19F1B5702D860AFD68 /* Pods_SnapaskHomework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880080794DC6D12363A277D /* Pods_SnapaskHomework1.framework */; };
+		3D676132B1518E449456D3C0 /* Pods_SnapaskHomework1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88303A0A132C3BFF68492896 /* Pods_SnapaskHomework1Tests.framework */; };
 		509D3CDF2684B01C00F9D8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3CDE2684B01C00F9D8ED /* AppDelegate.swift */; };
 		509D3CE12684B01C00F9D8ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3CE02684B01C00F9D8ED /* SceneDelegate.swift */; };
-		509D3CE32684B01C00F9D8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3CE22684B01C00F9D8ED /* ViewController.swift */; };
 		509D3CE82684B01C00F9D8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509D3CE72684B01C00F9D8ED /* Assets.xcassets */; };
 		509D3CEB2684B01C00F9D8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509D3CE92684B01C00F9D8ED /* LaunchScreen.storyboard */; };
 		509D3D012684B01C00F9D8ED /* SnapaskHomework1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D002684B01C00F9D8ED /* SnapaskHomework1UITests.swift */; };
@@ -41,8 +41,7 @@
 		509D3D882684B7D600F9D8ED /* AppManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D862684B7D600F9D8ED /* AppManagerTests.swift */; };
 		509D3D892684B7D600F9D8ED /* UserInfoDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D872684B7D600F9D8ED /* UserInfoDetailViewModelTests.swift */; };
 		50C825072684BBC500A40C19 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C825062684BBC500A40C19 /* CodableExtension.swift */; };
-		5E8515AC2433B7A03423EA78 /* Pods_SnapaskHomework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC1D458DC7081F361962E6 /* Pods_SnapaskHomework1.framework */; };
-		A90639AF109FE667C5F820B6 /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9277B2FD2CBC61A397F55B /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */; };
+		723A48760B96696A3271C10C /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D643F80CD72BF8E11D687F /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,16 +62,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007F36DB9B9CA1FD559B09B8 /* Pods-SnapaskHomework1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1Tests.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1Tests/Pods-SnapaskHomework1Tests.release.xcconfig"; sourceTree = "<group>"; };
-		16AC1D458DC7081F361962E6 /* Pods_SnapaskHomework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapaskHomework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A195075B8C49A60F0CCC810 /* Pods-SnapaskHomework1.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1.testing.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1.testing.xcconfig"; sourceTree = "<group>"; };
-		1D56011CBC2F5F5976D939CD /* Pods_SnapaskHomework1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapaskHomework1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29B6AAAC2B0BA91F9AAE2327 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3EDA90B37B757A9B48A5181D /* Pods-SnapaskHomework1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1Tests.debug.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1Tests/Pods-SnapaskHomework1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		16E972F57AE340B0BB837797 /* Pods-SnapaskHomework1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1Tests.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1Tests/Pods-SnapaskHomework1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1880080794DC6D12363A277D /* Pods_SnapaskHomework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapaskHomework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F77BFE3CAAD9E9FCC904562 /* Pods-SnapaskHomework1.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1.testing.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1.testing.xcconfig"; sourceTree = "<group>"; };
 		509D3CDB2684B01C00F9D8ED /* SnapaskHomework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapaskHomework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509D3CDE2684B01C00F9D8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		509D3CE02684B01C00F9D8ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		509D3CE22684B01C00F9D8ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		509D3CE72684B01C00F9D8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		509D3CEA2684B01C00F9D8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		509D3CEC2684B01C00F9D8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,12 +103,15 @@
 		509D3D862684B7D600F9D8ED /* AppManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManagerTests.swift; sourceTree = "<group>"; };
 		509D3D872684B7D600F9D8ED /* UserInfoDetailViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoDetailViewModelTests.swift; sourceTree = "<group>"; };
 		50C825062684BBC500A40C19 /* CodableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
-		8ADBFE1F1856FE8237B36A84 /* Pods-SnapaskHomework1Tests.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1Tests.testing.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1Tests/Pods-SnapaskHomework1Tests.testing.xcconfig"; sourceTree = "<group>"; };
-		B9DA85B76811F2C23697E4B5 /* Pods-SnapaskHomework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1.release.xcconfig"; sourceTree = "<group>"; };
-		BA7990F765CC1CFF0F25C0E3 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig"; sourceTree = "<group>"; };
-		EC9277B2FD2CBC61A397F55B /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapaskHomework1_SnapaskHomework1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7D0E045417C1E483F07666A /* Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig"; sourceTree = "<group>"; };
-		F9BA21710B621874684AF352 /* Pods-SnapaskHomework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1.debug.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1.debug.xcconfig"; sourceTree = "<group>"; };
+		88303A0A132C3BFF68492896 /* Pods_SnapaskHomework1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapaskHomework1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		982697134C81E9A74FCAE833 /* Pods-SnapaskHomework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1.debug.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D643F80CD72BF8E11D687F /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapaskHomework1_SnapaskHomework1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D502003E091C69DEAA773C1B /* Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		D88757F48A8352AC6320FA80 /* Pods-SnapaskHomework1Tests.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1Tests.testing.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1Tests/Pods-SnapaskHomework1Tests.testing.xcconfig"; sourceTree = "<group>"; };
+		E360ABEE58C4E4B0B7A4B432 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB5983B5C183499AD113C11C /* Pods-SnapaskHomework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1.release.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1.release.xcconfig"; sourceTree = "<group>"; };
+		FBFCC293A059AF03B6102DC7 /* Pods-SnapaskHomework1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1Tests.debug.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1Tests/Pods-SnapaskHomework1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE7EDB0FE2024263233912A9 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig"; path = "Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E8515AC2433B7A03423EA78 /* Pods_SnapaskHomework1.framework in Frameworks */,
+				30259F19F1B5702D860AFD68 /* Pods_SnapaskHomework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				082FC33AE56A969B2CD36D6F /* Pods_SnapaskHomework1Tests.framework in Frameworks */,
+				3D676132B1518E449456D3C0 /* Pods_SnapaskHomework1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +135,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90639AF109FE667C5F820B6 /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework in Frameworks */,
+				723A48760B96696A3271C10C /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A4CCA6F526E73DF5AE373DB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				16AC1D458DC7081F361962E6 /* Pods_SnapaskHomework1.framework */,
-				EC9277B2FD2CBC61A397F55B /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */,
-				1D56011CBC2F5F5976D939CD /* Pods_SnapaskHomework1Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		509D3CD22684B01C00F9D8ED = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +150,7 @@
 				509D3CFF2684B01C00F9D8ED /* SnapaskHomework1UITests */,
 				509D3CDC2684B01C00F9D8ED /* Products */,
 				871E95FFF4F4A1F10900CCB6 /* Pods */,
-				3A4CCA6F526E73DF5AE373DB /* Frameworks */,
+				E75DF695752346666C6F1B1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,15 +167,14 @@
 		509D3CDD2684B01C00F9D8ED /* SnapaskHomework1 */ = {
 			isa = PBXGroup;
 			children = (
-				50C825052684BBC500A40C19 /* Extensions */,
+				509D3D592684B4AB00F9D8ED /* Manager */,
 				509D3D832684B63200F9D8ED /* Config */,
+				50C825052684BBC500A40C19 /* Extensions */,
+				509D3D272684B27C00F9D8ED /* Network */,
 				509D3D6A2684B54C00F9D8ED /* ViewControllers */,
 				509D3D652684B50600F9D8ED /* Injected */,
-				509D3D592684B4AB00F9D8ED /* Manager */,
-				509D3D272684B27C00F9D8ED /* Network */,
 				509D3CDE2684B01C00F9D8ED /* AppDelegate.swift */,
 				509D3CE02684B01C00F9D8ED /* SceneDelegate.swift */,
-				509D3CE22684B01C00F9D8ED /* ViewController.swift */,
 				509D3CE72684B01C00F9D8ED /* Assets.xcassets */,
 				509D3CE92684B01C00F9D8ED /* LaunchScreen.storyboard */,
 				509D3CEC2684B01C00F9D8ED /* Info.plist */,
@@ -292,9 +279,9 @@
 		509D3D6A2684B54C00F9D8ED /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				509D3D732684B54C00F9D8ED /* Base */,
 				509D3D6B2684B54C00F9D8ED /* LoginAuth */,
 				509D3D6E2684B54C00F9D8ED /* UserList */,
-				509D3D732684B54C00F9D8ED /* Base */,
 				509D3D752684B54C00F9D8ED /* UserInfoDetail */,
 			);
 			path = ViewControllers;
@@ -312,8 +299,8 @@
 		509D3D6E2684B54C00F9D8ED /* UserList */ = {
 			isa = PBXGroup;
 			children = (
-				509D3D6F2684B54C00F9D8ED /* UserListViewModel.swift */,
 				509D3D722684B54C00F9D8ED /* UserListViewController.swift */,
+				509D3D6F2684B54C00F9D8ED /* UserListViewModel.swift */,
 				509D3D702684B54C00F9D8ED /* View */,
 			);
 			path = UserList;
@@ -372,17 +359,27 @@
 		871E95FFF4F4A1F10900CCB6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F9BA21710B621874684AF352 /* Pods-SnapaskHomework1.debug.xcconfig */,
-				B9DA85B76811F2C23697E4B5 /* Pods-SnapaskHomework1.release.xcconfig */,
-				29B6AAAC2B0BA91F9AAE2327 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig */,
-				F7D0E045417C1E483F07666A /* Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig */,
-				3EDA90B37B757A9B48A5181D /* Pods-SnapaskHomework1Tests.debug.xcconfig */,
-				007F36DB9B9CA1FD559B09B8 /* Pods-SnapaskHomework1Tests.release.xcconfig */,
-				1A195075B8C49A60F0CCC810 /* Pods-SnapaskHomework1.testing.xcconfig */,
-				BA7990F765CC1CFF0F25C0E3 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig */,
-				8ADBFE1F1856FE8237B36A84 /* Pods-SnapaskHomework1Tests.testing.xcconfig */,
+				982697134C81E9A74FCAE833 /* Pods-SnapaskHomework1.debug.xcconfig */,
+				1F77BFE3CAAD9E9FCC904562 /* Pods-SnapaskHomework1.testing.xcconfig */,
+				EB5983B5C183499AD113C11C /* Pods-SnapaskHomework1.release.xcconfig */,
+				E360ABEE58C4E4B0B7A4B432 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig */,
+				FE7EDB0FE2024263233912A9 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig */,
+				D502003E091C69DEAA773C1B /* Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig */,
+				FBFCC293A059AF03B6102DC7 /* Pods-SnapaskHomework1Tests.debug.xcconfig */,
+				D88757F48A8352AC6320FA80 /* Pods-SnapaskHomework1Tests.testing.xcconfig */,
+				16E972F57AE340B0BB837797 /* Pods-SnapaskHomework1Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E75DF695752346666C6F1B1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1880080794DC6D12363A277D /* Pods_SnapaskHomework1.framework */,
+				B1D643F80CD72BF8E11D687F /* Pods_SnapaskHomework1_SnapaskHomework1UITests.framework */,
+				88303A0A132C3BFF68492896 /* Pods_SnapaskHomework1Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,11 +389,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 509D3D052684B01C00F9D8ED /* Build configuration list for PBXNativeTarget "SnapaskHomework1" */;
 			buildPhases = (
-				F9E14D81EE55AA25534E50ED /* [CP] Check Pods Manifest.lock */,
+				EF8B7F74E561A4017A6D1A5A /* [CP] Check Pods Manifest.lock */,
 				509D3CD72684B01C00F9D8ED /* Sources */,
 				509D3CD82684B01C00F9D8ED /* Frameworks */,
 				509D3CD92684B01C00F9D8ED /* Resources */,
-				7311D7032B1725218603005C /* [CP] Embed Pods Frameworks */,
+				EF1091D19EF46980EE133DAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -411,11 +408,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 509D3D082684B01C00F9D8ED /* Build configuration list for PBXNativeTarget "SnapaskHomework1Tests" */;
 			buildPhases = (
-				C6E24D38FAD468F272F9AE57 /* [CP] Check Pods Manifest.lock */,
+				FF8474F855286FE494360811 /* [CP] Check Pods Manifest.lock */,
 				509D3CED2684B01C00F9D8ED /* Sources */,
 				509D3CEE2684B01C00F9D8ED /* Frameworks */,
 				509D3CEF2684B01C00F9D8ED /* Resources */,
-				C92D06196DEFE9AA797A7B8C /* [CP] Embed Pods Frameworks */,
+				8C213549BF9D6D799C2B25F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,11 +428,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 509D3D0B2684B01C00F9D8ED /* Build configuration list for PBXNativeTarget "SnapaskHomework1UITests" */;
 			buildPhases = (
-				2A5E6BF3D2275E775E5DA418 /* [CP] Check Pods Manifest.lock */,
+				2F8CC0438D76D6E7879EC53F /* [CP] Check Pods Manifest.lock */,
 				509D3CF82684B01C00F9D8ED /* Sources */,
 				509D3CF92684B01C00F9D8ED /* Frameworks */,
 				509D3CFA2684B01C00F9D8ED /* Resources */,
-				14A47FBD73D16449F451560E /* [CP] Embed Pods Frameworks */,
+				594D46A1BDD543B4B70BD473 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -518,24 +515,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		14A47FBD73D16449F451560E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A5E6BF3D2275E775E5DA418 /* [CP] Check Pods Manifest.lock */ = {
+		2F8CC0438D76D6E7879EC53F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -557,46 +537,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7311D7032B1725218603005C /* [CP] Embed Pods Frameworks */ = {
+		594D46A1BDD543B4B70BD473 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1-SnapaskHomework1UITests/Pods-SnapaskHomework1-SnapaskHomework1UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C6E24D38FAD468F272F9AE57 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SnapaskHomework1Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C92D06196DEFE9AA797A7B8C /* [CP] Embed Pods Frameworks */ = {
+		8C213549BF9D6D799C2B25F9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -613,7 +571,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1Tests/Pods-SnapaskHomework1Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F9E14D81EE55AA25534E50ED /* [CP] Check Pods Manifest.lock */ = {
+		EF1091D19EF46980EE133DAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapaskHomework1/Pods-SnapaskHomework1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8B7F74E561A4017A6D1A5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -635,6 +610,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FF8474F855286FE494360811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapaskHomework1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -642,7 +639,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509D3CE32684B01C00F9D8ED /* ViewController.swift in Sources */,
 				509D3D7E2684B54C00F9D8ED /* UserListViewController.swift in Sources */,
 				50C825072684BBC500A40C19 /* CodableExtension.swift in Sources */,
 				509D3D392684B27C00F9D8ED /* GitHubUserListApi.swift in Sources */,
@@ -834,7 +830,7 @@
 		};
 		509D3D062684B01C00F9D8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9BA21710B621874684AF352 /* Pods-SnapaskHomework1.debug.xcconfig */;
+			baseConfigurationReference = 982697134C81E9A74FCAE833 /* Pods-SnapaskHomework1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -854,7 +850,7 @@
 		};
 		509D3D072684B01C00F9D8ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9DA85B76811F2C23697E4B5 /* Pods-SnapaskHomework1.release.xcconfig */;
+			baseConfigurationReference = EB5983B5C183499AD113C11C /* Pods-SnapaskHomework1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -874,7 +870,7 @@
 		};
 		509D3D092684B01C00F9D8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EDA90B37B757A9B48A5181D /* Pods-SnapaskHomework1Tests.debug.xcconfig */;
+			baseConfigurationReference = FBFCC293A059AF03B6102DC7 /* Pods-SnapaskHomework1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -899,7 +895,7 @@
 		};
 		509D3D0A2684B01C00F9D8ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 007F36DB9B9CA1FD559B09B8 /* Pods-SnapaskHomework1Tests.release.xcconfig */;
+			baseConfigurationReference = 16E972F57AE340B0BB837797 /* Pods-SnapaskHomework1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -923,7 +919,7 @@
 		};
 		509D3D0C2684B01C00F9D8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29B6AAAC2B0BA91F9AAE2327 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig */;
+			baseConfigurationReference = E360ABEE58C4E4B0B7A4B432 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -944,7 +940,7 @@
 		};
 		509D3D0D2684B01C00F9D8ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D0E045417C1E483F07666A /* Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig */;
+			baseConfigurationReference = D502003E091C69DEAA773C1B /* Pods-SnapaskHomework1-SnapaskHomework1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1026,7 +1022,7 @@
 		};
 		509D3D8B2684B7F800F9D8ED /* Testing */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A195075B8C49A60F0CCC810 /* Pods-SnapaskHomework1.testing.xcconfig */;
+			baseConfigurationReference = 1F77BFE3CAAD9E9FCC904562 /* Pods-SnapaskHomework1.testing.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1047,7 +1043,7 @@
 		};
 		509D3D8C2684B7F800F9D8ED /* Testing */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ADBFE1F1856FE8237B36A84 /* Pods-SnapaskHomework1Tests.testing.xcconfig */;
+			baseConfigurationReference = D88757F48A8352AC6320FA80 /* Pods-SnapaskHomework1Tests.testing.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1073,7 +1069,7 @@
 		};
 		509D3D8D2684B7F800F9D8ED /* Testing */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA7990F765CC1CFF0F25C0E3 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig */;
+			baseConfigurationReference = FE7EDB0FE2024263233912A9 /* Pods-SnapaskHomework1-SnapaskHomework1UITests.testing.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

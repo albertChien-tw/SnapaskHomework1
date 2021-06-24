@@ -18,10 +18,11 @@ class UserInfoDetailViewModelTests: XCTestCase {
     
     private var sut:UserInfoDetailViewModel!
     var service:SnapaskNetworkService!
-    
+
     func testWhen_GetUserInfoSuccess() {
         class Mock:GitHubUserApi.Client {
-            override func getUserDetail(userName: String) -> Single<UserInfoDetail> {
+            override init(service: SnapaskNetworkService = SnapaskNetworkService.shared) {
+                super.init(service: service)
                 let stubbing = StubbingConstructor()
                 let response = GitHubUserApi.Request.ResponseType(login: "Albert",
                                                                   id: 1,
@@ -35,9 +36,8 @@ class UserInfoDetailViewModelTests: XCTestCase {
                                                                   bio: nil,
                                                                   twitterUsername: nil)
                 let data = response.encoded()!
-                let request = GitHubUserApi.Request(userName: "")
                 let service = stubbing.setSuccess(mockData: data)
-                return service.request(request)
+                self.service = service
             }
         }
         let mock = Mock()
