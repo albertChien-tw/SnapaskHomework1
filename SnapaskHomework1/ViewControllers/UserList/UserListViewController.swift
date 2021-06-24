@@ -27,7 +27,7 @@ class UserListViewController: BaseViewController {
         super.viewDidLoad()
         initView()
         layout()
-        updateTableViewData()
+//        updateTableViewData()
         // Do any additional setup after loading the view.
     }
     
