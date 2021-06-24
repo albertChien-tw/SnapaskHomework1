@@ -19,6 +19,8 @@ class UserInfoDetailView: UIView {
     
     private let nameView:NameView = NameView()
     
+    private let markImageView:UIImageView = UIImageView()
+
     private let bioLabel:UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 15, weight: .regular)
@@ -41,6 +43,7 @@ class UserInfoDetailView: UIView {
         return label
     }()
     
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         initView()
@@ -55,6 +58,7 @@ class UserInfoDetailView: UIView {
         backgroundColor = .black
         addSubview(iconImageView)
         addSubview(nameView)
+        addSubview(markImageView)
         addSubview(bioLabel)
         addSubview(locationLabel)
         addSubview(blogLabel)
@@ -69,6 +73,11 @@ class UserInfoDetailView: UIView {
         nameView.snp.makeConstraints { make in
             make.centerY.equalTo(iconImageView)
             make.left.equalTo(iconImageView.snp.right).offset(16)
+        }
+        
+        markImageView.snp.makeConstraints { make in
+            make.top.right.equalToSuperview().inset(16)
+            make.width.height.equalTo(20)
         }
         
         bioLabel.snp.makeConstraints { make in
@@ -95,6 +104,8 @@ class UserInfoDetailView: UIView {
         bioLabel.text = object.bio
         locationLabel.text = object.location
         blogLabel.text = object.blog
+        let image = object.isSiteAdmin ? UIImage(named: "marked") : UIImage(named: "unMark")
+        markImageView.image = image
     }
 }
 

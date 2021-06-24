@@ -21,7 +21,17 @@ class BaseViewController: UIViewController {
 }
 
 extension BaseViewController {
-    func setNavigationBarAppearance(backgroundColor: UIColor, titleColor: UIColor) {
+    
+    func setNavigationBar(title: String?, backgroundColor: UIColor, titleColor: UIColor = .white) {
+        navigationItem.title = title
+        navigationItem.largeTitleDisplayMode = .never
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: titleColor]
+        navigationController?.navigationBar.isTranslucent = false
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        setNavigationBarAppearance(backgroundColor: backgroundColor, titleColor: titleColor)
+    }
+    
+    private func setNavigationBarAppearance(backgroundColor: UIColor, titleColor: UIColor) {
         if #available(iOS 13.0, *) {
             if let appearance = navigationController?.navigationBar.standardAppearance.copy() {
                 appearance.backgroundColor = backgroundColor

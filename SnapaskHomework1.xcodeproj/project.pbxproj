@@ -289,9 +289,9 @@
 		509D3D6A2684B54C00F9D8ED /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				509D3D732684B54C00F9D8ED /* Base */,
 				509D3D6B2684B54C00F9D8ED /* LoginAuth */,
 				509D3D6E2684B54C00F9D8ED /* UserList */,
-				509D3D732684B54C00F9D8ED /* Base */,
 				509D3D752684B54C00F9D8ED /* UserInfoDetail */,
 			);
 			path = ViewControllers;
@@ -309,8 +309,8 @@
 		509D3D6E2684B54C00F9D8ED /* UserList */ = {
 			isa = PBXGroup;
 			children = (
-				509D3D6F2684B54C00F9D8ED /* UserListViewModel.swift */,
 				509D3D722684B54C00F9D8ED /* UserListViewController.swift */,
+				509D3D6F2684B54C00F9D8ED /* UserListViewModel.swift */,
 				509D3D702684B54C00F9D8ED /* View */,
 			);
 			path = UserList;

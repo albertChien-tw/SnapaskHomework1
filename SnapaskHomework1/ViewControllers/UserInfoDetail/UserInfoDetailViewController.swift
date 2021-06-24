@@ -34,7 +34,7 @@ class UserInfoDetailViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        setNavigationBarAppearance(backgroundColor: .black, titleColor: .white)
+        setNavigationBar(title: userName, backgroundColor: .black, titleColor: .white)
     }
 }
 extension UserInfoDetailViewController {

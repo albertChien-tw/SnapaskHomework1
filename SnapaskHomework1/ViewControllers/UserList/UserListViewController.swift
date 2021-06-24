@@ -27,13 +27,13 @@ class UserListViewController: BaseViewController {
         super.viewDidLoad()
         initView()
         layout()
-//        updateTableViewData()
+        updateTableViewData()
         // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        setNavigationBarAppearance(backgroundColor: .black, titleColor: .white)
+        setNavigationBar(title: "UserList", backgroundColor: .black, titleColor: .white)
     }
 }
 //MARK:Private func
