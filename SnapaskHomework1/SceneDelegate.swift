@@ -53,6 +53,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let url = URLContexts.first?.url else {
             return
         }
+        //TODO:URL scheme must to be snapask
         if url.host == "oauth-callback" {
             OAuthSwift.handle(url: url)
         }

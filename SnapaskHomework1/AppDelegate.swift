@@ -33,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+        //TODO:URL scheme must to be snapask
+
         if url.host == "oauth-callback" {
             OAuthSwift.handle(url: url)
         }
