@@ -10,7 +10,6 @@
 		082FC33AE56A969B2CD36D6F /* Pods_SnapaskHomework1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D56011CBC2F5F5976D939CD /* Pods_SnapaskHomework1Tests.framework */; };
 		509D3CDF2684B01C00F9D8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3CDE2684B01C00F9D8ED /* AppDelegate.swift */; };
 		509D3CE12684B01C00F9D8ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3CE02684B01C00F9D8ED /* SceneDelegate.swift */; };
-		509D3CE32684B01C00F9D8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3CE22684B01C00F9D8ED /* ViewController.swift */; };
 		509D3CE82684B01C00F9D8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509D3CE72684B01C00F9D8ED /* Assets.xcassets */; };
 		509D3CEB2684B01C00F9D8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509D3CE92684B01C00F9D8ED /* LaunchScreen.storyboard */; };
 		509D3D012684B01C00F9D8ED /* SnapaskHomework1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D3D002684B01C00F9D8ED /* SnapaskHomework1UITests.swift */; };
@@ -72,7 +71,6 @@
 		509D3CDB2684B01C00F9D8ED /* SnapaskHomework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapaskHomework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509D3CDE2684B01C00F9D8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		509D3CE02684B01C00F9D8ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		509D3CE22684B01C00F9D8ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		509D3CE72684B01C00F9D8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		509D3CEA2684B01C00F9D8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		509D3CEC2684B01C00F9D8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -179,15 +177,14 @@
 		509D3CDD2684B01C00F9D8ED /* SnapaskHomework1 */ = {
 			isa = PBXGroup;
 			children = (
-				50C825052684BBC500A40C19 /* Extensions */,
+				509D3D592684B4AB00F9D8ED /* Manager */,
 				509D3D832684B63200F9D8ED /* Config */,
+				50C825052684BBC500A40C19 /* Extensions */,
+				509D3D272684B27C00F9D8ED /* Network */,
 				509D3D6A2684B54C00F9D8ED /* ViewControllers */,
 				509D3D652684B50600F9D8ED /* Injected */,
-				509D3D592684B4AB00F9D8ED /* Manager */,
-				509D3D272684B27C00F9D8ED /* Network */,
 				509D3CDE2684B01C00F9D8ED /* AppDelegate.swift */,
 				509D3CE02684B01C00F9D8ED /* SceneDelegate.swift */,
-				509D3CE22684B01C00F9D8ED /* ViewController.swift */,
 				509D3CE72684B01C00F9D8ED /* Assets.xcassets */,
 				509D3CE92684B01C00F9D8ED /* LaunchScreen.storyboard */,
 				509D3CEC2684B01C00F9D8ED /* Info.plist */,
@@ -642,7 +639,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509D3CE32684B01C00F9D8ED /* ViewController.swift in Sources */,
 				509D3D7E2684B54C00F9D8ED /* UserListViewController.swift in Sources */,
 				50C825072684BBC500A40C19 /* CodableExtension.swift in Sources */,
 				509D3D392684B27C00F9D8ED /* GitHubUserListApi.swift in Sources */,
