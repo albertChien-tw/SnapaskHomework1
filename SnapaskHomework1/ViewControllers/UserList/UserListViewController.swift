@@ -33,7 +33,7 @@ class UserListViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        setNavigationBarAppearance(backgroundColor: .black, titleColor: .white)
+        setNavigationBar(title: "UserList", backgroundColor: .black, titleColor: .white)
     }
 }
 //MARK:Private func

@@ -38,9 +38,14 @@ struct GitHubUserApi {
     }
 
     class Client {
-
+        var service:SnapaskNetworkService
+        
+        init(service:SnapaskNetworkService = SnapaskNetworkService.shared) {
+            self.service = service
+        }
+        
         func getUserDetail(userName:String) -> Single<UserInfoDetail> {
-            SnapaskNetworkService.shared.request(Request(userName: userName))
+            service.request(Request(userName: userName))
         }
     }
 }

@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import OAuthSwift
-import SafariServices
 import SVProgressHUD
 
 class LoginAuthViewController: BaseViewController {
@@ -39,7 +37,7 @@ class LoginAuthViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        setNavigationBarAppearance(backgroundColor: .black, titleColor: .white)
+        setNavigationBar(title: nil, backgroundColor: .black, titleColor: .white)
     }
 }
 // MARK: Private func
@@ -63,7 +61,7 @@ extension LoginAuthViewController {
     }
 
     private func startOAuth() {
-        viewModel.getAuthResult(vc: self)
+        GitHubAccessManager.shared.getAuthResult(vc: self)
             .subscribe {[weak self] result in
                 guard let self = self else {return}
                 self.keyChain.accessToken = result.credential.oauthToken
