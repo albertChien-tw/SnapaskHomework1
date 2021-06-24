@@ -16,13 +16,14 @@ target 'SnapaskHomework1' do
   pod 'SVProgressHUD'
   target 'SnapaskHomework1Tests' do
     inherit! :search_paths
+    pod 'RxBlocking'
+    pod 'RxTest'
     # Pods for testing
   end
 
   target 'SnapaskHomework1UITests' do
     # Pods for testing
-    pod 'RxBlocking'
-    pod 'RxTest'
+    
   end
 
 end
